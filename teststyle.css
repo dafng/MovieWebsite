@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+}
+
+/*header styling */
+header{
+    background-color: hsla(0, 85%, 31%, 0.718);
+    text-align: center;
+    padding: 10px;
+}
+
+/* navigation bar styling */
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(180, 5%, 21%, 0.871);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color: hsla(351, 16%, 40%, 0.871);
+}
+
+.navbar li{
+    float:left;
+}
+
+/* dropdown menu styling */
+.dropdown a{
+    display:block;
+}
+
+.dropdown .content{
+    display:none;
+    position:absolute;
+    background-color: hsla(180, 5%, 21%, 0.871);
+    min-width: 80px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+/*side panel styling */
+.asidelist ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+.asidelist a{
+    text-decoration: none;
+    color: hsl(243, 72%, 40%);
+}
+
+.asidelist h3{
+    padding:0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.asidelist li{
+    padding: 5px;
+}
+
+.asidelist li:hover{
+    background-color: hsla(0, 69%, 60%, 0.6);
+    border-radius: 5px;
+}
+
+.asidelist{
+    float: left;
+    width: 200px;
+    margin-left: 25px;
+}
+
+/*main section styling */
+.mainsection h3{
+    text-align: center;
+}
+
+.mainsection img{
+    float:left;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.mainsection a{
+    text-decoration: none;
+    color: hsl(256, 87%, 28%);
+}
+
+.mainsection a:hover{
+    color:hsla(0, 100%, 50%, 0.537);
+    text-decoration: underline;
+}
+.mainsection {
+    margin-right: 25px;
+}
+
+/* blockboxing content */
+
+.blockboxes ul{
+    list-style-type:none;
+    padding: 30px;
+}
+
+.blockboxes a{
+    text-decoration:none;
+    color: white;
+}
+
+.blockboxes li{
+    margin-bottom: 5px;
+    padding: 20px;
+    background-color: hsla(221, 30%, 18%, 0.725);
+    border-radius: 5px;
+    color: white;
+}
+
+.blockboxes li:hover{
+    background-color: hsla(222, 36%, 40%, 0.725);
+}
+
+.blockboxes audio{
+    margin-left: 20px;
+}
+/*pagination styling */
+
+.pagination{
+    text-align: center;
+    margin-top:40px;
+}
+
+.pagination a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    display:inline-block;
+}
+
+.pagination a.active{
+    background-color: hsla(0, 63%, 56%, 0.684);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: hsla(4, 10%, 69%, 0.5);
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer{
+    clear:both; /*clears the floats */
+    background-color: hsla(180, 5%, 21%, 0.871);
+    display: block;
+    height: 80px;
+    margin-top: 130px;
+    color: white;
+}
+
+.epilogue{
+    padding: 30px; 
+    text-align: center;
+}
+
+.epilogue a{
+    text-decoration: none;
+    color: white;
+}
+
+.epilogue a:hover{
+    background-color: hsla(240, 42%, 37%, 0.715);
+}
